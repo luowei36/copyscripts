@@ -1,13 +1,21 @@
 /*
-https://lzkj-isv.isvjcloud.com/lzclient/12345/cjwx/common/entry.html?activityId=xxxx
+活动名称：超级无线店铺抽奖
+活动链接：https://lzkj-isv.isvjcloud.com/lzclient/12345/cjwx/common/entry.html?activityId=xxxx
+
+作者：小埋
+TG频道：https://t.me/duckjobs
+拉库：task repo https://github.com/okyyds/duck.git master
+
+特别说明：搬运脚本已得到大佬许可，此仓库脚本仅作为个人使用并可能用于日常线报活动分享，感谢大佬提供的脚本
+
 */
+
 const $ = new Env('超级无线店铺抽奖');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
-let activityIdList = [
-    "",
-]
+let activityIdList = []
+
 let lz_cookie = {}
 
 if (process.env.RUSH_LZCLIENT && process.env.RUSH_LZCLIENT != "") {
