@@ -255,7 +255,7 @@ function randomWord(n: number = 1) {
 
 async function getshareCodeHW(key: string) {
   let shareCodeHW: string[] = []
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 0; i++) {
     try {
       let {data}: any = await axios.get('https://api.jdsharecode.xyz/api/HW_CODES')
       shareCodeHW = data[key] || []
@@ -272,7 +272,7 @@ async function getshareCodeHW(key: string) {
 
 async function getShareCodePool(key: string, num: number) {
   let shareCode: string[] = []
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 0; i++) {
     try {
       let {data}: any = await axios.get(`https://api.jdsharecode.xyz/api/${key}/${num}`)
       shareCode = data.data || []
