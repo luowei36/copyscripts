@@ -100,11 +100,11 @@ function info() {
     return new Promise(async(resolve) => {
 
         let options = {
-            url: `https://m.jingxi.com/kjactive/jxhlk/jxhlk_showpage?pageindex=1&pagenum=10&launchid=&_stk=launchid%2Cpageindex%2Cpagenum&_ste=1&h5st=20210611124834764%3B9239928912872162%3B10029%3Btk01wbcaa1c9ba8nd2QzQ1ZoLzNtk5KzYYdDSHRhFzz7%2FRM9cwNQBA92KZHoHeloSktjcQEdy%2FEXtm5u1WsoLf%2F6pNyP%3B05df15c1c37911547393fc59f29a13f564d1f0fb7d7da9d6d0c2b0b6a7c9ffdc&t=1623386914770&_=1623386914770&sceneval=2&g_login_type=1&callback=jsonpCBKB&g_ty=ls`,
+            url: `https://m.jingxi.com/jxzlmfl/zlmfl_showpage?pageindex=1&pagenum=20&launchid=&t=1654607119978&_=1654607119979&sceneval=2&g_login_type=1&callback=jsonpCBKB&g_ty=ls&appCode=msd1188198`,
             //dS%2Bp85VyjydPuAOOnFP%2Faw%3D%3D
             // body: `functionId=cutPriceByUser&body={"activityId":"852797097823596544","userName":"","followShop":1,"shopId":52021,"userPic":""}&client=wh5&clientVersion=1.0.0`,
             headers: {
-                "Referer": "https://st.jingxi.com/sns/202103/20/jxhlk/list.html?ptag=7155.9.89",
+                "Referer": "https://st.jingxi.com/sns/202205/20/jxmfl/list.html?sceneval=2&ptag=7155.13.62",
                 "Host": "m.jingxi.com",
                 "User-Agent": "jdpingou;iPhone;4.8.0;14.3;9714ccbf07209f246277896ef7c041f3bb571ca3;network/wifi;model/iPhone9,2;appBuild/100540;ADID/00000000-0000-0000-0000-000000000000;supportApplePay/1;hasUPPay/0;pushNoticeIsOpen/0;hasOCPay/0;supportBestPay/0;session/22;pap/JA2019_3111789;brand/apple;supportJDSHWK/1;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
                 "Cookie": cookie,
@@ -141,11 +141,11 @@ function checkaddress() {
     return new Promise(async(resolve) => {
 
         let options = {
-            url: `https://m.jingxi.com/kjactive/jxhlk/jxhlk_checkaddress?active=${active}&addressid=&t=1623387225130&_=1623387225131&sceneval=2&g_login_type=1&callback=jsonpCBKE&g_ty=ls`,
+            url: `https://m.jingxi.com/jxzlmfl/jxzlmfl_checkaddress?active=${active}&addressid=&t=1623387225130&_=1623387225131&sceneval=2&g_login_type=1&callback=jsonpCBKE&g_ty=ls`,
             //dS%2Bp85VyjydPuAOOnFP%2Faw%3D%3D
             // body: `functionId=cutPriceByUser&body={"activityId":"852797097823596544","userName":"","followShop":1,"shopId":52021,"userPic":""}&client=wh5&clientVersion=1.0.0`,
             headers: {
-                "Referer": "https://st.jingxi.com/sns/202103/20/jxhlk/list.html?ptag=7155.9.89",
+                "Referer": "https://st.jingxi.com/sns/202103/20/jxzlmfl/list.html?ptag=7155.9.89",
                 "Host": "m.jingxi.com",
                 "User-Agent": "jdpingou;iPhone;4.8.0;14.3;9714ccbf07209f246277896ef7c041f3bb571ca3;network/wifi;model/iPhone9,2;appBuild/100540;ADID/00000000-0000-0000-0000-000000000000;supportApplePay/1;hasUPPay/0;pushNoticeIsOpen/0;hasOCPay/0;supportBestPay/0;session/22;pap/JA2019_3111789;brand/apple;supportJDSHWK/1;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
                 "Cookie": cookie,
@@ -185,11 +185,11 @@ function join() {
     return new Promise(async(resolve) => {
 
         let options = {
-            url: `https://m.jingxi.com/kjactive/jxhlk/jxhlk_launch?active=${active}&provinceid=${$.provinceid}&cityid=${$.cityid}&countyid=${$.countyid}&_stk=active,cityid,countyid,provinceid&_ste=1&h5st=20210611134802301;9239928912872162;10029;tk01wbcaa1c9ba8nd2QzQ1ZoLzNtk5KzYYdDSHRhFzz7/RM9cwNQBA92KZHoHeloSktjcQEdy/EXtm5u1WsoLf/6pNyP;9a5fc97afa527c0cfa083a7d2d948c0308bdb2d78413eb8ea5d17e336af71dc2&t=1623390482324&_=1623390482325&sceneval=2&g_login_type=1&callback=jsonpCBKD&g_ty=ls`,
+            url: `https://m.jingxi.com/jxzlmfl/jxzlmfl_launch?active=${active}&provinceid=${$.provinceid}&cityid=${$.cityid}&countyid=${$.countyid}&_stk=active,cityid,countyid,provinceid&_ste=1&h5st=20210611134802301;9239928912872162;10029;tk01wbcaa1c9ba8nd2QzQ1ZoLzNtk5KzYYdDSHRhFzz7/RM9cwNQBA92KZHoHeloSktjcQEdy/EXtm5u1WsoLf/6pNyP;9a5fc97afa527c0cfa083a7d2d948c0308bdb2d78413eb8ea5d17e336af71dc2&t=1623390482324&_=1623390482325&sceneval=2&g_login_type=1&callback=jsonpCBKD&g_ty=ls`,
             //dS%2Bp85VyjydPuAOOnFP%2Faw%3D%3D
             // body: `functionId=cutPriceByUser&body={"activityId":"852797097823596544","userName":"","followShop":1,"shopId":52021,"userPic":""}&client=wh5&clientVersion=1.0.0`,
             headers: {
-                "Referer": "https://st.jingxi.com/sns/202103/20/jxhlk/list.html?ptag=7155.9.89",
+                "Referer": "https://st.jingxi.com/sns/202103/20/jxzlmfl/list.html?ptag=7155.9.89",
                 "Host": "m.jingxi.com",
                 "User-Agent": "jdpingou;iPhone;4.8.0;14.3;9714ccbf07209f246277896ef7c041f3bb571ca3;network/wifi;model/iPhone9,2;appBuild/100540;ADID/00000000-0000-0000-0000-000000000000;supportApplePay/1;hasUPPay/0;pushNoticeIsOpen/0;hasOCPay/0;supportBestPay/0;session/22;pap/JA2019_3111789;brand/apple;supportJDSHWK/1;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
                 "Cookie": cookie,
@@ -226,10 +226,10 @@ function help() {
     return new Promise(async(resolve) => {
 
         let options = {
-            url: `https://m.jingxi.com/kjactive/jxhlk/jxhlk_queryhelp?launchid=${launchid}&clicktype=1&nomoving=0&_stk=clicktype,launchid,nomoving&_ste=1&h5st=20210611141713782;4277367680239161;10029;tk01wea971d94a8nWUlYSjgyLzZKSU1igyCeoCUlN/xTTrRT7O3uvmUqievWdR1PWX5HYelOXXDFofE6gtFirtyXBLjY;787c9125d6eaf59d5fb81bcdea2b58481e4e395402191379b47fbec7470c67b3&t=1623392233807&_=1623392233808&sceneval=2&g_login_type=1&callback=jsonpCBKD&g_ty=ls`,
+            url: `https://m.jingxi.com/jxzlmfl/zlmfl_queryhelp?launchid=${launchid}&clicktype=1&nomoving=0&_stk=clicktype,launchid,nomoving&_ste=1&h5st=20210611141713782;4277367680239161;10029;tk01wea971d94a8nWUlYSjgyLzZKSU1igyCeoCUlN/xTTrRT7O3uvmUqievWdR1PWX5HYelOXXDFofE6gtFirtyXBLjY;787c9125d6eaf59d5fb81bcdea2b58481e4e395402191379b47fbec7470c67b3&t=1623392233807&_=1623392233808&sceneval=2&g_login_type=1&callback=jsonpCBKD&g_ty=ls`,
 
             headers: {
-                "Referer": `https://st.jingxi.com/sns/202103/20/jxhlk/list.html?launchid=${launchid}&ptag=139022.1.2&srv=jx_cxyw_https://wq.jd.com/cube/front/activePublish/jxhlkv2/486449.html?ptag=139022.1.2_jing`,
+                "Referer": `https://st.jingxi.com/sns/202205/20/jxmfl/list.html?launchid=${launchid}&ptag=139022.1.2&srv=jx_cxyw_https://wq.jd.com/cube/front/activePublish/jxzlmflv2/486449.html?ptag=139022.1.2_jing`,
                 "Host": "m.jingxi.com",
                 "User-Agent": "jdpingou;iPhone;4.8.0;14.3;9714ccbf07209f246277896ef7c041f3bb571ca3;network/wifi;model/iPhone9,2;appBuild/100540;ADID/00000000-0000-0000-0000-000000000000;supportApplePay/1;hasUPPay/0;pushNoticeIsOpen/0;hasOCPay/0;supportBestPay/0;session/22;pap/JA2019_3111789;brand/apple;supportJDSHWK/1;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
                 "Cookie": cookie,
